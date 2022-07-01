@@ -392,4 +392,7 @@ for batch in test_ds.take(1):
         ax[i // 4, i % 4].set_title(title)
         ax[i // 4, i % 4].axis("off")
 
+model.save("C:\\Users\\cucui\\AppData\\Local\\Programs\\Python\\Python39\\ThisCyberware\\Lighthouse7\\Lighthouse7\\SavedModelHW\\handwrittenenus.h5")
+
 plt.show()
+
